@@ -36,7 +36,7 @@
 ## ◽ Sprints
 
 ### Sprint 1
-[De __ a __]
+[De 06/02/25 a 20/02/25]
 1. Definir a identidade visual da empresa desenvolvedora
 2. Definir a identidade visual do projeto
 3. Elaborar o documento de visão do projeto
