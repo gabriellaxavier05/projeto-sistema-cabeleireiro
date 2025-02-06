@@ -20,6 +20,7 @@
 ## ✨ Épicos
 1. Documentação
 2. Design
+3. Protótipo
 
 <br>
 
@@ -41,4 +42,6 @@
 3. Elaborar o documento de visão do projeto
 4. Definir os requisitos funcionais
 5. Definir os requisitos não funcionais
+
+### Sprint 2
 6. Definir as regras de negócio
