@@ -45,3 +45,13 @@
 
 ### Sprint 2
 6. Definir as regras de negócio
+7. Criar o MER (Modelo Entidade-Relacionamento)
+8. Criar os diagramas de casos de uso
+9. Criar o protótipo da tela de login
+10. Desenvolver o front-end da tela de login
+
+
+### Sprint 3
+11. Criar o protótipo das telas relacionadas à "Esqueci minha senha"
+12. Desenvolver o front das telas relacionadas à "Esqueci minha senha"
+12. Criar o protótipo da tela index (pós login)
