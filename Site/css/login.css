@@ -1,0 +1,200 @@
+/* fontes */
+
+
+/* Resetando alguns estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a tipografia e o fundo */
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    height: 100vh; /* Ocupa a altura total da tela */
+    justify-content: center; /* Centraliza as divs na tela */
+    align-items: center; /* Alinha as divs verticalmente no centro */
+}
+
+/* Definindo o layout das divs 'left' e 'right' */
+.left, .right {
+    height: 100%; /* Garantir que as divs ocupem a altura total */
+}
+
+/* A parte 'left' vai ocupar 50% da largura da tela */
+.left {
+    width: 50%;
+    background-color: #F9F9ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.left .logo {
+    max-width: 50%; /* Garante que o logo ocupe no máximo 50% da largura */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.left p {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E1E1E;
+}
+
+/* A parte 'right' vai ocupar 50% da largura da tela */
+.right {
+    width: 50%;
+    background-color: #2C2C2C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.right h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #FFFAF7;
+}
+
+/* Estilizando o formulário de login */
+.form-login {
+    width: 100%;
+    max-width: 500px; /* Limita a largura do formulário */
+}
+
+/* Estilo para o contêiner da label e input */
+.form-group {
+    position: relative;
+}
+
+/* Estilo dos campos de input e labels */
+label {
+    font-size: 17px;
+    color: #FFFAF7;
+    transition: color 0.3s ease; /* Suaviza a mudança de cor */
+}
+
+input {
+    width: 100%;
+    margin: 7px 0px 10px 0px;
+    padding: 0px 0px 7px 8px;
+    border: none; /* Remove as bordas padrão */
+    border-bottom: 2px solid #FFFAF7; /* Adiciona a linha inferior */
+    background-color: transparent; /* Remove o fundo padrão */
+    outline: none; /* Remove o contorno ao clicar */
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Nunito';
+    color: #FFFAF7;
+}
+
+/* Estilo para o ícone */
+.form-group i {
+    position: absolute;
+    right: 10px; /* Ajusta a posição do ícone à direita do campo */
+    top: 50%;
+    transform: translateY(-50%); /* Alinha verticalmente o ícone com o centro do campo */
+    color: #FFFAF7; /* Cor do ícone igual à linha do campo */
+    font-size: 20px; /* Tamanho do ícone */
+}
+
+/* Estilo para o campo e a label quando o campo está selecionado */
+.form-group:focus-within label {
+    color: #C3A47A; /* Altera a cor da label quando o campo é focado */
+}
+
+.form-group:focus-within i {
+    color: #C3A47A; /* Altera a cor do ícone quando o campo é focado */
+}
+
+/* Estilo para o campo quando está selecionado */
+input:focus {
+    border-bottom: 2px solid #C3A47A;
+    color: #C3A47A;
+}
+
+/* Estilo do botão de login */
+.btn-login {
+    width: 190px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #FFFAF7;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFFAF7;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.btn-login:hover {
+    background-color: rgb(255, 255, 255, 0.6); /* 0.6 -> 60% de opacidade */
+    color: #1E1E1E;
+    border: 2px white solid;
+}
+
+/* Estilo do link "Esqueci minha senha" */
+p a {
+    color: #FFFAF7;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    /* Em telas menores, as divs 'left' e 'right' vão ocupar 100% da largura */
+    .left, .right {
+        width: 100%;
+        height: 100%; /* Ajuste para ocupar 100% da altura */
+    }
+
+    /* Ajustando o logo no 'left' */
+    .left .logo {
+        max-width: 60%; /* Reduz o tamanho do logo */
+    }
+
+    .left p {
+        font-size: 16px; /* Ajusta o tamanho da fonte quando a tela diminuir de tamanho */
+    }
+
+    .right h1 {
+        font-size: 24px; /* Ajusta o tamanho da fonte quando a tela diminuir de tamanho */
+    }
+
+    /* Ajustando a largura do formulário no 'right' */
+    .form-login {
+        max-width: 50%; /* Formulário ocupa mais espaço na tela */
+    }
+
+    /* Ajustando o tamanho do botão de login */
+    .btn-login {
+        width: 100%; /* Botão ocupa 100% da largura */
+    }
+    
+    .form-group i {
+        font-size: 10px; /* Ajusta o tamanho dos ícones nos campos de texto */
+    }
+
+    label {
+        font-size: 14px; /* Ajusta o tamanho da fonte das labels */
+    }
+
+    input {
+        font-size: 14px; /* Ajusta o tamanho da fonte dos campos de texto */
+    }
+
+    p a {
+        font-size: 14px; /* Ajusta o tamanho da fonte do link "Esqueci minha senha" */
+    }
+}
