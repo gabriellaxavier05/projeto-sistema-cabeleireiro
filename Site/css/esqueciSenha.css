@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a tipografia e o fundo */
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    height: 100vh; /* Ocupa a altura total da tela */
+    justify-content: center; /* Centraliza as divs na tela */
+    align-items: center; /* Alinha as divs verticalmente no centro */
+    background-color: #F9F9ED;
+}
+
+.central {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.central img {
+    width: 50px;
+    margin-top: 50px;
+}
+
+.central h1{
+    margin-top: 30px;
+    font-weight: 800;
+}
+
+.form-group {
+    font-size: 17px;
+    color: #1E1E1E;
+    transition: color 0.3s ease;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 90px;
+    position: relative; /* Adicionado para ser o contexto do ícone */
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input {
+    width: 87%;
+    margin: 7px 0px 10px 0px;
+    padding: 0px 0px 7px 8px;
+    border: none;
+    border-bottom: 2px solid #CFCFCF;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Nunito';
+    color: #1E1E1E;
+}
+ 
