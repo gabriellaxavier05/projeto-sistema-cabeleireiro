@@ -1,5 +1,5 @@
 {
-  "build": {
-    "outputDirectory": "Site"
-  }
+  "routes": [
+    { "src": "/(.*)", "dest": "/Site/$1" }
+  ]
 }
