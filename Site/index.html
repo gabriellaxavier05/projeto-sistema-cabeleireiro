@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - My Hair Salon</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/login.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="imgs/icon-hair-caramelo.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="left">
+        <img src="imgs/Imagotipo 1 - MHS.png" alt="" class="logo">
+        <p>Uma nova forma de gerir o meu salão de cabelos.</p>
+    </div>
+    <div class="right">
+        <div class="form-login">
+            <h1>Acessar minha conta</h1>
+            <br>
+            <div class="form-group">
+                <label for="fuser">Usuário</label><br>
+                <input type="text" name="fuser" id="fuser">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <br><br>
+            <div class="form-group">
+                <label for="fpassword">Senha</label><br>
+                <input type="password" name="fpassword" id="fpassword">
+                <i id="toggle-password" class="fa-solid fa-eye"></i>
+            </div>
+            <br><br>
+            <button type="button" class="btn-login">login</button>
+            <br><br>
+            <p><a href="esqueciMinhaSenha.html">Esqueci minha senha</a></p>
+        </div>
+    </div>
+
+    <!-- JS externo -->
+    <script src="js/telaLogin_script.js"></script>
+</body>
+
+</html>
