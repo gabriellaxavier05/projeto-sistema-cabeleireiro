@@ -18,8 +18,18 @@
 6. Front-end - Login
 7. Protótipo 'Esqueci minha senha'
 8. Front-end - 'Esqueci minha senha'
-9. Protótipo Index
-10. Front-end - Index
+9. Protótipo pós-login
+10. Front-end pós-login
+11. Back-end pós-login
+12. Protótipo - Configurações
+13. Front-end - Configurações
+14. Back-end - Configurações
+15. Protótipo - logout
+16. Front-end - logout
+17. Back-end - logout
+18. Protótipo - Notificações de agendamentos
+19. Front-end - Notificações de agendamentos
+20. Back-end - Notificações de agendamentos
 
 <br>
 
@@ -45,4 +55,29 @@
 
 ### Sprint 4
 12. Desenvolver o front das telas relacionadas à "Esqueci minha senha"
-12. Criar o protótipo da tela index (pós login)
+12. Criar o protótipo da tela "Home" (pós login)
+13. Criar o protótipo da tela "Profissionais"
+
+### Sprint 5
+14. Criar o front-end da tela "Home"
+15. Criar o front-end da tela "Profissionais"
+16. Criar o modal de cadastro da tela "Profissionais"
+
+### Sprint 6
+16. Criar o protótipo da tela "Procedimentos"
+17. Criar o front-end da tela "Procedimentos"
+18. Criar o modal de cadastro da tela "Procedimentos" 
+
+<br>
+
+## ➡️ Próximos cards (backlog)
+Front-end tela "Home":  
+* Criar estrutura do dashboard (criado)  
+
+Front-end tela "Profissonais":
+* Criar estrutura da tabela de registros
+* Criar modal para cadastrar registros  
+  
+Front-end tela "Procedimentos":
+* Criar estrutura da tabela de registros
+* Criar modal para cadastrar registros  
