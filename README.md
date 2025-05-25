@@ -18,3 +18,4 @@ Board do projeto no Jira: https://gabsxavier01-1738650621002.atlassian.net/jira/
 - ``docs``: documentações do sistema
 - ``design``: identidade visual do sistema e protótipos das funcionalidades
 - ``ux``: experiência de usuário do sistema
+- ``testes``: planejamento e execução de testes do sistema
